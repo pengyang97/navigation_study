@@ -1,0 +1,8 @@
+prefix=/home/pengyang/catkin_navigation/devel
+
+Name: carrot_planner
+Description: Description of carrot_planner
+Version: 1.14.8
+Cflags: -I/home/pengyang/catkin_navigation/src/navigation/carrot_planner/include
+Libs: -L${prefix}/lib -lcarrot_planner
+Requires: roscpp pluginlib costmap_2d base_local_planner nav_core

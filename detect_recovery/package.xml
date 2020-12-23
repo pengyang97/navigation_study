@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+    <name>detect_recovery</name>
+    <version>0.2.0</version>
+    <description>
+
+        This package provides a recovery behavior for the navigation stack that attempts to clear space by performing a 360 degree rotation of the robot.
+
+    </description>
+    <author>An Chuanxu</author>
+    <author>chuanxu@iscas.ac.cn</author>
+    <maintainer email="nefu.anchuanxu@gmail.com">chuanxu</maintainer>
+    <license>BSD</license>
+    <url>http://wiki.ros.org/detect_recovery</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>angles</build_depend>
+    <build_depend>base_local_planner</build_depend>
+    <build_depend>cmake_modules</build_depend>
+
+    <depend>costmap_2d</depend>
+    <depend>eigen</depend>
+    <depend>geometry_msgs</depend>
+    <depend>nav_core</depend>
+    <depend>pluginlib</depend>
+    <depend>roscpp</depend>
+    <depend>tf2</depend>
+    <depend>tf2_geometry_msgs</depend>
+    <depend>tf2_ros</depend>
+
+    <export>
+        <nav_core plugin="${prefix}/detect_plugin.xml" />
+    </export>
+
+</package>

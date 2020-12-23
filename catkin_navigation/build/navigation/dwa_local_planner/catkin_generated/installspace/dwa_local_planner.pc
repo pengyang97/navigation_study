@@ -1,0 +1,8 @@
+prefix=/home/pengyang/catkin_navigation/install
+
+Name: dwa_local_planner
+Description: Description of dwa_local_planner
+Version: 1.14.8
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ldwa_local_planner
+Requires: dynamic_reconfigure nav_msgs pluginlib roscpp

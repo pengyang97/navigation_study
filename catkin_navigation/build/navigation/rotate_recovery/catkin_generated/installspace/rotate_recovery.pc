@@ -1,0 +1,8 @@
+prefix=/home/pengyang/catkin_navigation/install
+
+Name: rotate_recovery
+Description: Description of rotate_recovery
+Version: 1.14.8
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrotate_recovery
+Requires: roscpp pluginlib

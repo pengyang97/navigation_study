@@ -1,0 +1,2 @@
+navigation/amcl:navigation/base_local_planner:navigation/carrot_planner:navigation/clear_costmap_recovery:navigation/costmap_2d:navigation/dwa_local_planner:navigation/fake_localization:navigation/global_planner:navigation/map_server:navigation/move_base:navigation/move_slow_and_clear:navigation/nav_core:navigation/navfn:navigation/navigation:navigation/robot_pose_ekf:navigation/rotate_recovery:navigation/voxel_grid
+-DCATKIN_DEVEL_PREFIX=/home/pengyang/catkin_navigation/devel -DCMAKE_INSTALL_PREFIX=/home/pengyang/catkin_navigation/install -G Unix Makefiles

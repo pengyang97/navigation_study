@@ -1,0 +1,7 @@
+<library path="lib/libdetect_recovery">
+  <class name="detect_recovery/DetectRecovery" type="detect_recovery::DetectRecovery" base_class_type="nav_core::RecoveryBehavior">
+    <description>
+      A recovery behavior that  attempt to clear out space.
+    </description>
+  </class>
+</library>

@@ -1,0 +1,8 @@
+prefix=/home/pengyang/catkin_navigation/devel
+
+Name: map_server
+Description: Description of map_server
+Version: 1.14.8
+Cflags: -I/home/pengyang/catkin_navigation/src/navigation/map_server/include
+Libs: -L${prefix}/lib -lmap_server_image_loader
+Requires: roscpp nav_msgs tf2

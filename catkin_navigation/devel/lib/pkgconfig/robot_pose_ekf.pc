@@ -1,0 +1,8 @@
+prefix=/home/pengyang/catkin_navigation/devel
+
+Name: robot_pose_ekf
+Description: Description of robot_pose_ekf
+Version: 1.14.8
+Cflags: -I/home/pengyang/catkin_navigation/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime nav_msgs roscpp sensor_msgs std_msgs

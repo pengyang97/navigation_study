@@ -1,0 +1,8 @@
+prefix=/home/pengyang/catkin_navigation/devel
+
+Name: nav_core
+Description: Description of nav_core
+Version: 1.14.8
+Cflags: -I/home/pengyang/catkin_navigation/src/navigation/nav_core/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs geometry_msgs tf costmap_2d

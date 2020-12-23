@@ -1,0 +1,8 @@
+prefix=/home/pengyang/catkin_navigation/devel
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.14.8
+Cflags: -I/home/pengyang/catkin_navigation/src/navigation/voxel_grid/include
+Libs: -L${prefix}/lib -lvoxel_grid
+Requires: roscpp

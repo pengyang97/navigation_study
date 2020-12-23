@@ -1,0 +1,8 @@
+prefix=/home/pengyang/catkin_navigation/devel
+
+Name: move_slow_and_clear
+Description: Description of move_slow_and_clear
+Version: 1.14.8
+Cflags: -I/home/pengyang/catkin_navigation/src/navigation/move_slow_and_clear/include
+Libs: -L${prefix}/lib -lmove_slow_and_clear
+Requires: geometry_msgs nav_core pluginlib roscpp
